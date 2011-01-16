@@ -9,8 +9,9 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
+LOCAL_MODULE_TAGS := optional
+
 LOCAL_MODULE := gps.$(BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE)
-LOACL_MODULE_TAGS := optional
 
 LOCAL_STATIC_LIBRARIES:= \
     libloc_api-rpc 
